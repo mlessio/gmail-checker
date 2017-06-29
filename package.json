@@ -15,5 +15,8 @@
     "google"
   ],
   "author": "Martino Lessio",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
 }
