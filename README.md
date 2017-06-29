@@ -3,7 +3,8 @@
 [![npm version](https://badge.fury.io/js/gmail-checker.svg)](https://badge.fury.io/js/gmail-checker)
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
-[![Code Climate](https://codeclimate.com/github/mlessio/gmail-checker/badges/gpa.svg)](https://codeclimate.com/github/mlessio/gmail-checker)
+[![Code Climate](https://codeclimate.com/github/mlessio/gmail-checker/badges/gpa.svg)](https://codeclimate.com/github/mlessio/gmail-checker)  
+
 A simple library that checks if a Google Gmail account is already taken.
 It may be suitable for email check, or other stuff.
 
