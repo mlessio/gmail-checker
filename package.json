@@ -1,0 +1,19 @@
+{
+  "name": "gmail-checker",
+  "version": "1.0.0",
+  "description": "Checks if a gmail account is already taken.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gmail",
+    "checker",
+    "exist",
+    "exists",
+    "account",
+    "google"
+  ],
+  "author": "Martino Lessio",
+  "license": "MIT"
+}
