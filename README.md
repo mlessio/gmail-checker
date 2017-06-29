@@ -51,6 +51,14 @@ GmailChecker.check('myDesiredUsername', function(err, result){
 });
 ```
 
+###Localization
+You can set the request locale in order to receive localized error messages from Google.
+You can do something like:
+```javascript
+GmailChecker.setLocale('en');
+```
+before performing a request.
+
 ##Attrubution
 
 This library is free and open source, it is not related, sponsored or endorsed by Google.
