@@ -4,7 +4,7 @@ It may be suitable for email check, or other stuff.
 
 ##Usage
 ```javascript
-var gmailChecker = require('gmail-checker');
+var GmailChecker = require('gmail-checker');
 
 console.log(gmailChecker);
 ```
@@ -14,7 +14,7 @@ If the check is invoked without a callback object, a Promise is returned immedia
 
 You can use it like this:
 ```javascript
-gmailChecker.check('myDesiredUsername').then(function(result){
+GmailChecker.check('myDesiredUsername').then(function(result){
   //check executed
   //do stuff with the result data
   if(result.exists){
@@ -34,7 +34,7 @@ If the check is invoked with a callback function, it'll be invoked after the che
 
 You can use it like this:
 ```javascript
-gmailChecker.check('myDesiredUsername', function(err, result){
+GmailChecker.check('myDesiredUsername', function(err, result){
 
   //first argument, if not null is the error
   if(err){
