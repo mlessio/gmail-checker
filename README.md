@@ -1,15 +1,15 @@
-#Gmail Checker
+# Gmail Checker
 A simple library that checks if a Google Gmail account is already taken.
 It may be suitable for email check, or other stuff.
 
-##Usage
+## Usage
 ```javascript
 var GmailChecker = require('gmail-checker');
 
 console.log(gmailChecker);
 ```
 
-###Promise based
+### Promise based
 If the check is invoked without a callback object, a Promise is returned immediately.
 
 You can use it like this:
@@ -28,7 +28,7 @@ GmailChecker.check('myDesiredUsername').then(function(result){
 });
 ```
 
-###Callback based
+### Callback based
 
 If the check is invoked with a callback function, it'll be invoked after the check has been executed.
 
@@ -51,7 +51,7 @@ GmailChecker.check('myDesiredUsername', function(err, result){
 });
 ```
 
-###Localization
+### Localization
 You can set the request locale in order to receive localized error messages from Google.
 You can do something like:
 ```javascript
@@ -59,12 +59,12 @@ GmailChecker.setLocale('en');
 ```
 before performing a request.
 
-##Attrubution
+## Attrubution
 
 This library is free and open source, it is not related, sponsored or endorsed by Google.
 
 
-###Copyright
+### Copyright
 Copyright (c) 2017 Martino Lessio
 
 
