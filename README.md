@@ -6,7 +6,7 @@ It may be suitable for email check, or other stuff.
 ```javascript
 var GmailChecker = require('gmail-checker');
 
-console.log(gmailChecker);
+console.log(GmailChecker);
 ```
 
 ### Promise based
@@ -59,7 +59,7 @@ GmailChecker.setLocale('en');
 ```
 before performing a request.
 
-## Attrubution
+## Attribution
 
 This library is free and open source, it is not related, sponsored or endorsed by Google.
 
