@@ -2,6 +2,14 @@
 A simple library that checks if a Google Gmail account is already taken.
 It may be suitable for email check, or other stuff.
 
+## Installation
+
+Download or clone this repo or install through npm:
+
+```javascript
+npm install --save gmail-checker
+```
+
 ## Usage
 ```javascript
 var GmailChecker = require('gmail-checker');
