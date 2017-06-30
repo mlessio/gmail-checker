@@ -8,8 +8,6 @@ GmailChecker.check('testaddress', function(err, data){
     return;
   }
   console.log("Username exists:", data.exists);
-  if(data.exists)
-    console.log("Error message", data.message);
 });
 
 //checks for an, hopefully, unexisting address
@@ -19,6 +17,4 @@ GmailChecker.check('testaddress12as12e4dfdf8ugsd', function(err, data){
     return;
   }
   console.log("Username exists:", data.exists);
-  if(data.exists)
-    console.log("Error message", data.message);
 });
